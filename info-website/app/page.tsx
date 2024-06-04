@@ -1,5 +1,6 @@
 import Bilder from './content/bilder';
 import Inhalt from './content/inhalt';
+import Kontakt from './content/kontakt';
 import Rechtliches from './content/rechtliches';
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
       <Inhalt />
       <Bilder />
       <Rechtliches />
+      <Kontakt />
     </main>
   );
 }
