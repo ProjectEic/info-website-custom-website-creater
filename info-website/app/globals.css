@@ -5,7 +5,7 @@
 :root {
   --foreground-rgb: 255, 255, 255;
   --background-start-rgb: 59, 130, 246;
-  --background-end-rgb: 0, 181, 255;
+  --background-end-rgb: 0, 100, 211;
   
   scroll-behavior: smooth;
 }
@@ -37,4 +37,32 @@ body {
 
 .mainHeadline{
   -webkit-text-stroke: 2px #434656;
+}
+
+body section {
+  border-radius: 0.25rem;;
+}
+
+.landingOL a {
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+}
+
+.landingOL a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.75);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
+}
+
+.landingOL a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }

@@ -1,8 +1,8 @@
 export default function Inhalt() {
 return (
-    <section id="Inhalt" className="text-[#434656] w-screen flex items-center flex-col bg-[#d4edeb] h-[110vh] gap-24 p-24"> 
+    <section id="Inhalt" className="w-[80vw] text-[#434656] flex items-center flex-col bg-[#d4edeb] h-[120vh] gap-24 px-24 py-12"> 
         <div>
-            <h3 className="font-mono text-5xl text-center tracking-[15px]">Inhalt</h3>
+            <h3 className="font-mono text-5xl text-center tracking-[15px] text-[#000862]">Inhalt</h3>
             <p className="text-[12px] opacity-70">Keiner der Unterpunkte (außer der Kontaktbereich) ist verpflichtend.</p>
         </div>
         <p className="tracking-[2px] text-center font-mono font-medium">
@@ -20,7 +20,7 @@ return (
                 <p className="text-2xl underline">Dienstleistungen:</p> 
                 <ol className="pl-4">
                     <li className="mb-2"><span className="font-semibold">Überschrift: </span>Name der Dienstleistung</li>
-                    <li className="mb-2"><span className="font-semibold">Beschreibung: </span>Beschreibung der Dienstleistung: Was bietet man an? Was kostet es? Wie lange dauert es? Hier können sowohl kurze Sätze stehen als auch lange. Wichtig ist es, dass die ersten 3-4 Sätze sehr aussagekräftig sind, denn der Rest wird erst in der <abbr title="Ein überlagerndes Fenster, das zusätzliche Informationen anzeigt">Lightbox</abbr> angezeigt.</li>
+                    <li className="mb-2"><span className="font-semibold">Beschreibung: </span>Beschreibung der Dienstleistung: Was bietet man an? Was kostet es? Wie lange dauert es?<br/> Hier können sowohl kurze Sätze stehen als auch lange. Wichtig ist es, dass die ersten 3-4 Sätze sehr aussagekräftig sind, denn der Rest wird erst in der <abbr title="Ein überlagerndes Fenster, das zusätzliche Informationen anzeigt">Lightbox</abbr> angezeigt.</li>
                 </ol>
             </li>
             <li className="mb-4 text-lg">
