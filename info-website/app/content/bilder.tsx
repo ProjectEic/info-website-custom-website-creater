@@ -14,7 +14,7 @@ export default function Bilder() {
             <ol className="flex flex-col gap-12 w-full">
                 <li className="mb-4 text-lg">
                     <p className="text-2xl underline">Startseite:</p> 
-                    Am besten wären Bilder mit einem Format von 16:9 mehr dazu sehen sie in der <a href="#infographik">Infographik</a>
+                    Am besten wären Bilder mit einem Format von 16:9 mehr dazu sehen sie in der <a className="underline" href="#infographik">Infographik</a>.
                 </li>
                 <li className="mb-4 text-lg">
                     <p className="text-2xl underline">Dienstleistungen:</p> 
