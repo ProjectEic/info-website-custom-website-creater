@@ -32,7 +32,7 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between px-24 py-12 gap-24">
-      <h2 className="mainHeadline text-5xl tracking-[10px] font-semibold font-mono text-[#ff77b8]">SchirmerRinke Software Info-Radgeber</h2>
+      <h2 className="mainHeadline text-5xl tracking-[10px] font-semibold font-mono text-[#fff]">SchirmerRinke Software Info-Radgeber</h2>
 
       <div className="flex flex-col gap-20 bg-[#434656] py-10 px-20 rounded w-[80vw] items-center">
         <p className="text-2xl leading-6">In diesem kurzen Infobeitrag erfährst du alles, was du über deine Website wissen musst.</p>
