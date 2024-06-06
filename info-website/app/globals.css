@@ -66,3 +66,28 @@ body section {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+
+/*  Rename Image section  */
+
+#Rename {
+  background: linear-gradient(270deg, #3b82f6, #007bff, #0056b3, #007bff, #3b82f6);
+  background-repeat: no-repeat;
+  background-size: 400% 400%;
+  min-height: 100vh;
+  animation: gradientAnimation 60s ease-in-out infinite;
+
+  display: grid; 
+  grid-template-rows: auto 1fr;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 25%;
+  }
+  50% {
+    background-position: 10% 50%;
+  }
+  100% {
+    background-position: 0% 25%;
+  }
+}
