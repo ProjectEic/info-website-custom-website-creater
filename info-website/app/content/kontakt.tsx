@@ -4,7 +4,7 @@ import social_media_footer_section from "../images/social_media_footer_section.p
 
 export default function Kontakt() {
     return (
-        <section id="Kontakt" className="w-[80vw] flex items-center flex-col h-[180vh] gap-24 px-24 py-12 bg-[#002482] text-[#d4edeb]"> 
+        <section id="Kontakt" className="w-[80vw] flex items-center flex-col h-[195vh] gap-24 px-24 py-12 bg-[#002482] text-[#d4edeb]"> 
             <div>
                 <h3 className="font-mono text-5xl text-center tracking-[15px] text-white">Kontakt</h3>
                 <ol className="pl-4 flex flex-col gap-12 w-full">
