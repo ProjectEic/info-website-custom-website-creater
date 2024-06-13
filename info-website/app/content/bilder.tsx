@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Bilder() {
     return (
-        <section id="Bilder" className="w-[80vw] text-[#434656] flex items-center flex-col h-[165vh] gap-24 px-24 py-12 text-[#d4edeb] bg-[#002482]"> 
+        <section id="Bilder" className="w-[80vw] text-[#434656] flex items-center flex-col h-[fit-content] gap-24 px-24 py-12 text-[#d4edeb] bg-[#002482]"> 
             <div>
                 <h3 className="font-mono text-5xl text-center tracking-[15px] text-white">Bilder</h3>
             </div>

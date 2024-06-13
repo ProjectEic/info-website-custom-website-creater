@@ -4,6 +4,7 @@ import Bilder from './content/bilder';
 import Inhalt from './content/inhalt';
 import Kontakt from './content/kontakt';
 import Rechtliches from './content/rechtliches';
+import Footer from './content/footer';
 
 export default function Home() {
   const [showButton, setShowButton] = useState(false);
@@ -50,6 +51,7 @@ export default function Home() {
       <Bilder />
       <Rechtliches />
       <Kontakt />
+      <Footer />
 
       {showButton && (
         <button

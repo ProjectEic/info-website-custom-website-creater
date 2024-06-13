@@ -1,6 +1,6 @@
 export default function Inhalt() {
 return (
-    <section id="Inhalt" className="w-[80vw] text-[#434656] flex items-center flex-col bg-[#d4edeb] h-[120vh] gap-24 px-24 py-12"> 
+    <section id="Inhalt" className="w-[80vw] text-[#434656] flex items-center flex-col bg-[#d4edeb] h-[fit-content] gap-24 px-24 py-12"> 
         <div>
             <h3 className="font-mono text-5xl text-center tracking-[15px] text-[#000862]">Inhalt</h3>
             <p className="text-[12px] opacity-70">Keiner der Unterpunkte (außer der Kontaktbereich) ist verpflichtend.</p>
