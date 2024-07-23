@@ -27,11 +27,11 @@ export default function Rechtliches() {
       className="w-[80vw] text-[#434656] flex items-center flex-col bg-[#d4edeb] h-[max-content] gap-24 px-24 py-12"
     >
       <div>
-        <h3 className="font-mono text-5xl text-center tracking-[15px] text-[#000862]">Rechtliches</h3>
+        <h3 className="font-mono text-5xl text-center tracking-[15px] text-[#000862]">Recht<wbr/>liches</h3>
       </div>
       <ol className="pl-4 flex flex-col gap-12 w-full">
         <li className="mb-4 text-lg">
-          <p className="text-2xl underline">Datenschutzerklärung:</p>
+          <p className="text-2xl underline">Datenschutz<wbr/>erklärung:</p>
           <ol className="">
             <li className="mb-2">
               <span className="font-semibold">Info: </span>Die Datenschutzerklärung wird von uns erstellt und mit ihren Datenangepasst, sodass sie rechtlich abeesichert sind. 

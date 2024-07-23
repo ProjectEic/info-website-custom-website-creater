@@ -38,7 +38,7 @@ export default function Home() {
       <div className="flex flex-col gap-20 bg-[#434656] py-10 px-20 rounded w-[80vw] items-center">
         <p className="text-2xl leading-6">In diesem kurzen Infobeitrag erfährst du alles, was du über deine Website wissen musst.</p>
         <div>
-          <ol className="landingOL text-2xl pl-7 text-center tracking-[8px] flex flex-col gap-5">
+          <ol className="landingOL text-2xl text-center tracking-[8px] flex flex-col gap-5">
             <li><a href="#Inhalt">Inhalt</a></li>
             <li><a href="#Bilder">Bilder</a></li>
             <li><a href="#Rechtliches">Rechtliches</a></li>

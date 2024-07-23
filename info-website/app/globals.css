@@ -91,3 +91,9 @@ body section {
     background-position: 0% 25%;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .mainHeadline {
+    letter-spacing: normal;
+  }
+}
